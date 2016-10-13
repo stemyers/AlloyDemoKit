@@ -12,6 +12,8 @@ using System.Web;
 
 namespace EPiServer.Templates.Alloy.Business.PowerSlice
 {
+    using EPiServer.DataAbstraction;
+
     [ServiceConfiguration(typeof(IContentQuery)), ServiceConfiguration(typeof(IContentSlice))]
     public class ArticleSlice : ContentSliceBase<ArticlePage>
     {
