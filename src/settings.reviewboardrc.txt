@@ -1,0 +1,2 @@
+REVIEWBOARD_URL = 'http://ec2-54-165-219-170.compute-1.amazonaws.com:80/'
+REPOSITORY = 'Git'
